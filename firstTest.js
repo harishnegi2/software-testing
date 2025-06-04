@@ -13,7 +13,6 @@ const { Builder, Browser, By, Key } = require('selenium-webdriver');
   await driver.findElement(By.name('q')).sendKeys('webdriver',Key.RETURN);
 
 
-
   // close the browser
   driver.close();
   
